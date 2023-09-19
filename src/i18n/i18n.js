@@ -3,7 +3,7 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import enTranslation from './translations/en.json';
 import hiTranslation from './translations/hi.json';
-import esTranslation from './translations/es.json'; // Import Spanish translations
+import esTranslation from './translations/es.json'; 
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -17,8 +17,8 @@ i18n.use(initReactI18next).init({
       translation: esTranslation,
     },
   },
-  lng: 'en', // Default language
-  fallbackLng: 'en', // Fallback language
+  lng: 'en', 
+  fallbackLng: 'en', 
   interpolation: {
     escapeValue: false,
   },
